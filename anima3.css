@@ -1,0 +1,497 @@
+div{
+
+
+
+
+
+}
+body{
+    background-image: url("/Images/1449070750776.png");
+
+}
+
+
+
+#ext1{
+    background-image: url("/Images/banner-ConvertImage(2).jpg");
+    position: absolute;
+    background-repeat: no-repeat;
+    top: 2px;
+    left: 212px;
+    right: 0px;
+
+    height: 158px;
+    z-index: -1;
+    opacity: 0.60;
+
+
+}
+
+
+#ext2{
+    background-image: url("/Images/banner-ConvertImage(2).jpg");
+    position: absolute;
+    background-repeat: no-repeat;
+    top: 0px;
+    left: 210px;
+    right: 0px;
+    opacity: 0.60;
+    height: 160px;
+    z-index: -1;
+
+
+
+}
+
+
+
+
+
+#ext4{
+    background-image: url("/Images/whitehat-ConvertImage.jpg");
+    position: absolute;
+    background-repeat: no-repeat;
+    top: 0px;
+    left: 30px;
+    right: 0px;
+    opacity: 0.33;
+    height: 150px;
+    z-index: -1;
+    opacity: 0,10;
+
+
+}
+
+#ext3{
+
+    position: absolute;
+    top: 0%;
+    left: 0%;
+
+    background-color: black;
+    opacity: 0.33;
+
+    width: 85%;
+    height: 180px;
+
+    opacity: 0.33;
+
+
+}
+
+
+
+.square {
+    position: absolute;
+    height: 500px;
+    width: 210px;
+    background-color: red;
+    opacity: 0.33;
+    top: 19%;
+    left: 0%;
+}
+
+
+.text {
+    position: absolute;
+    opacity: 0.27;
+    width: 600px;
+    height: 160px;
+    margin-right: 0%;
+
+    display: flex;
+    display: inline;
+
+    font-size: 200%;
+    top: 0%;
+    left: 53%;
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+
+    font-size: 20px;
+    background-color: red;
+    color: white;
+
+
+
+
+}
+
+
+.text2 {
+    position: absolute;
+    text-decoration: underline;
+    width: 205px;
+    height: 157px;
+    margin-right: 0%;
+    border-style: ridge;
+    display: flex;
+    display: inline;
+    align-items: left;
+    font-size: 200%;
+    top: 0%;
+    left: 0%;
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+    color: black;
+    border-color: black;
+
+}
+
+.text3 {
+    position: absolute;
+    text-decoration: underline;
+    width: 206px;
+    height: 500px;
+    margin-right: 0%;
+    border-style: ridge;
+    display: flex;
+    display: inline;
+    align-items: left;
+    font-size: 200%;
+    top: 19%;
+    left: 0%;
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+    color: white;
+    border-color: black;
+
+}
+
+
+.menu {
+    position: absolute;
+    width: 300px;
+    border-radius: 8px;
+    overflow: hidden;
+    position: absolute;
+    width: 236px;
+    height: 900px;
+    top: 18%;
+    left: -1.75%;
+
+
+
+
+}
+
+.item {
+    border-top: 1px solid ;
+    overflow: hidden;
+
+}
+
+.btn {
+    display: block;
+    padding: 16px 20px;
+    background: white;
+    color: black;
+    position: relative;
+    text-align: right;
+
+    font-size: 12px;
+}
+
+.btn::before {
+    content: "";
+    position: absolute;
+    width: 14px;
+    height: 14px;
+
+    left: 20px;
+    bottom: -7px;
+    transform: rotate(45deg);
+}
+
+.btn i {
+    margin-right: 10px;
+
+}
+
+.smenu {
+    background: #333;
+    overflow: hidden;
+    transition: max-height 0.3s;
+    max-height: 0;
+    background-image: url("/Images/icons8-cyber-security-50.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    text-decoration: none;
+
+}
+
+.smenu a {
+    display: block;
+    padding: 16px 26px;
+    color: red;
+    margin: 4px 0;
+    position: relative;
+    text-decoration: none;
+}
+
+.smenu a::before {
+    content: "";
+    position: absolute;
+    width: 6px;
+    height: 100%;
+    background: white;
+    left: 0;
+    top: 0;
+    transition: .3s;
+    opacity: 0;
+}
+
+.smenu a:hover::before {
+    opacity: 1;
+}
+
+.item:target .smenu {
+    max-height: 10em;
+}
+
+.button {
+    background-color: #1c87c9;
+    border: none;
+    color: white;
+    padding: 20px 34px;
+    text-align: center;
+
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-image: url("/Images/icons8-cyber-security-50.png");
+    background-repeat: no-repeat;
+    background-position: left 0%;
+
+
+
+}
+
+
+.btn1 {
+    display: block;
+    padding: 16px 20px;
+    background: white;
+    color: red;
+    position: relative;
+    text-decoration: none;
+    background-image: url("icons8-home-30.png");
+    background-repeat: no-repeat;
+    background-position: top 20% left 0%;
+    text-align: center;
+
+    font-size: 12px;
+}
+
+
+.btn2 {
+    display: block;
+    padding: 16px 20px;
+    background: white;
+    color: red;
+    position: relative;
+    text-decoration: none;
+    background-image: url("/Images/icons8-documents-30.png");
+    background-repeat: no-repeat;
+    background-position: top 20% left 0%;
+    text-align: center;
+
+    font-size: 12px;
+}
+
+
+
+
+
+.btn3 {
+    display: block;
+    padding: 16px 20px;
+    background: white;
+    color: red;
+    position: relative;
+    text-decoration: none;
+    background-image: url("/Images/icons8-books-30.png");
+    background-repeat: no-repeat;
+    background-position: top 20% left 0%;
+    text-align: center;
+
+    font-size: 12px;
+}
+
+.btn4 {
+    display: block;
+    padding: 16px 20px;
+    background: white;
+    color: red;
+    position: relative;
+    text-decoration: none;
+    background-image: url("/Images/icons8-project-30.png");
+    background-repeat: no-repeat;
+    background-position: top 20% left 0%;
+    text-align: center;
+
+    font-size: 12px;
+}
+
+
+.btn5 {
+    display: block;
+    padding: 16px 20px;
+    background: white;
+    color: red;
+    position: relative;
+    text-decoration: none;
+    background-image: url("/Images/icons8-population-return-30.png");
+    background-repeat: no-repeat;
+    background-position: top 20% left 0%;
+    text-align: center;
+
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+.jt {
+
+    position: absolute;
+    width: 600px;
+    height: 100px;
+    font-size: 130%;
+    font-family:'Staatliches',sans-serif  ;
+    text-transform: uppercase;
+    font-display: swap;
+    text-shadow: 0 0 10px darkred;
+    color: white;
+    left: 100px;
+    top: 800px;
+
+}
+
+
+.jt__row {
+    display: block;
+}
+.jt__row:nth-child(1) {
+    clip-path: polygon(-10% 75%, 110% 75%, 110% 110%, -10% 110%);
+}
+
+
+.jt__row.jt__row--sibling {
+    position: absolute;
+    top: 0;
+    left: 0;
+    user-select: none;
+    witdh:800px;
+
+}
+
+.jt__text {
+    display: block;
+    transform-origin: bottom left;
+    animation: moveIn 2s 0s cubic-bezier(.36,0,.06,1) alternate infinite ;
+}
+.jt__row:nth-child(1) .jt__text {
+    transform: translateY(-0.1em);
+}
+.jt__row:nth-child(2) .jt__text {
+    transform: translateY(-0.3em) scaleY(1.1);
+}
+.jt__row:nth-child(3) .jt__text {
+    transform: translateY(-0.5em) scaleY(1.2) ;
+}
+.jt__row:nth-child(4) .jt__text {
+    transform: translateY(-0.7em) scaleY(1.3) ;
+}
+.jt__row:nth-child(5) .jt__text {
+    transform: translateY(-0.9em) scaleY(1.4) ;
+}
+.jt__row:nth-child(6) .jt__text {
+    transform: translateY(-1.1em) scaleY(1.5) ;
+}
+
+@keyframes moveIn {
+    50%, 100% {
+        transform: translateY(0em)
+    }
+    0%   {
+        opacity: 0;
+        filter: blur(10px);
+
+    }
+    100% {
+        opacity: 1;
+        filter: blur(0px);
+    }
+}
+
+
+
+
+html, body {
+
+
+
+
+
+}
+
+
+
+.marquee-rtl {
+    position: absolute;
+    width: 1800px;
+    height: 30px;
+    /* largeur de la fenêtre */
+
+    margin: 1em auto 2em;
+    border: 1px solid black;
+    overflow: hidden;                     /* masque tout ce qui dépasse */
+    box-shadow: 0 .25em .5em #CCC,inset 0 0 1em .25em #CCC;
+    background-color: black;
+    opacity: 0.60;
+}
+
+
+.marquee-rtl > :first-child {
+    display: inline-block;                /* modèle de boîte en ligne */
+    padding-right: 2em;                   /* un peu d'espace pour la transition */
+    padding-left: 100%;                   /* placement à droite du conteneur */
+    white-space: nowrap;                  /* pas de passage à la ligne */
+    animation: defilement-rtl 205s infinite linear;
+
+    animation-name: defilement-rtl;       /* référence à la règle @keyframes mise en oeuvre */
+    animation-delay: 05s;                 /* valeur à ajuster suivant la longueur du message */
+    animation-iteration-count: infinite;  /* boucle continue */
+    animation-timing-function: linear;    /* pas vraiment utile ici */
+}
+
+@keyframes defilement-rtl {
+    0% {
+        transform: translate3d(0,0,0);      /* position initiale à droite */
+    }
+    100% {
+        transform: translate3d(-100%,0,0);  /* position finale à gauche */
+    }
+}
+
+#ext1{
+    background-image: url("/Images/whitehat-ConvertImage-ConvertImage(1).jpg");
+    position: absolute;
+    background-repeat: no-repeat;
+    top: 830px;
+    left: 5px;
+    right: 0px;
+
+    height: 158px;
+    z-index: -1;
+
+
+
+}
