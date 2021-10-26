@@ -1,0 +1,81 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+top: 55px;
+
+}
+
+
+
+body{
+background-image: url("vault.jpg");
+background-repeat: no-repeat;
+margin:0;
+    padding:0;
+    
+  background-size: cover;
+    background-attachment: fixed;
+    background-position : center;
+    background-color : #ededed
+ 
+
+}
+
+
+
+
+p{
+  text-decoration: none;
+  padding: 150px;
+  background: black;
+  border-radius: 5px;
+  text-transform: none;
+  background-image: url("simplescreenrecorder-2021-10-24_20.47.48.gif");
+  color: rgba(77, 77, 77, .7);
+}
+
+
+
+.modal {
+
+  position: relative;
+  top: 0; right: 0;
+  bottom: 0; left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  transition: all .4s;
+}
+
+
+
+
+
+
+
+.modal:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+
+
+
+.modal_content {
+  border-radius: 4px;
+  position: relative;
+  width: 768px;
+  max-width: 90%;
+  background: rgba(77, 77, 77, .7);
+  padding: 5px;
+}
+.modal_close {
+  position: absolute;
+  top: 284px;
+  right: 468px;
+  color: rgba(255, 0, 100, 1);
+  text-decoration: underline;
+
+}
